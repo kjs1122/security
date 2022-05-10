@@ -22,4 +22,8 @@ public class SampleController {
     public void exAdmin() {
         log.info("exAdmin....................");
     }
+    @GetMapping("/guest")
+    public void exGuest() {
+        log.info("exGuest....................");
+    }
 }
